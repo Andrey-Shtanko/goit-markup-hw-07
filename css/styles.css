@@ -244,26 +244,26 @@ ul {
   line-height: 1.71;
 }
 /* чем мы занимаемся и команда*/
-.possibilities-list {
+.possibilities__list {
   display: flex;
 }
-.possibilities-list .item:not(:last-child) {
+.possibilities__item:not(:last-child) {
   margin-right: 30px;
 }
 .possibilities {
   padding-top: 0;
 }
-.possibilities-list img {
+.possibilities__image {
   vertical-align: bottom;
 }
-.possibilities-title {
+.possibilities__title {
   margin-bottom: 50px;
 }
 
-.possibilities-list .item {
+.possibilities__item {
   position: relative;
 }
-.label {
+.possibilities__label {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -337,7 +337,7 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.possibilities-title,
+.possibilities__title,
 .team-title,
 .clients-title {
   font-weight: 700;
