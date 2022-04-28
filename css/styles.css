@@ -363,15 +363,15 @@ ul {
 }
 
 /* Клиенты */
-.clients-list {
+.clients__list {
   display: flex;
 }
 
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
 }
 
-.clients-list .link {
+.clients__link {
   display: inline-flex;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
@@ -385,13 +385,13 @@ ul {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-list .link:hover,
-.clients-list .link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.clients-list .item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
