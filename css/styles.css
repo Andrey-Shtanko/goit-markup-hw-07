@@ -212,33 +212,34 @@ ul {
   color: var(--hover-text);
   cursor: pointer;
 }
-/* преимущества */
-.thumb {
+/* -- наши преимущества -- */
+.advantages__thumb {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   /* outline: tomato solid 1px; */
   margin-bottom: 30px;
   background-color: #f5f4fa;
 }
-.advantages-list {
+.advantages__list {
   display: flex;
 }
-.advantages-list .item {
+.advantages__item {
   width: 270px;
 }
-.advantages-list .item:not(:last-child) {
+.advantages__item:not(:last-child) {
   margin-right: 30px;
 }
-.advantages .title {
+.advantages__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.advantages .text {
+.advantages__text {
   font-size: 14px;
   line-height: 1.71;
 }
