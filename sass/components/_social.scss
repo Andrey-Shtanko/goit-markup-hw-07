@@ -14,16 +14,12 @@
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover{
+    &:hover, &:focus{
         border-radius: 50%;
         background-color: var(--accent-color);
         fill: var(--hover-text);
     }
-    &:focus{
-        border-radius: 50%;
-        background-color: var(--accent-color);
-        fill: var(--hover-text);
-    }
+    
 }
 
 .social__item:not(:last-child) {
