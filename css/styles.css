@@ -81,7 +81,7 @@ ul {
   /* border: 1px solid tomato; */
   margin-right: 50px;
 }
-.nav__list .item:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 .nav__link {
