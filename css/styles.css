@@ -1,5 +1,5 @@
 /* общие */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -43,7 +43,7 @@ body {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  /* outline: 2px solid tomato; */
+ 
 }
 h1,
 h2,
@@ -55,11 +55,11 @@ ul {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* навигация */
  
-.line {
+/* .line {
   border-bottom: 1px solid #ececec;
 }
 .header__container {
@@ -78,7 +78,7 @@ ul {
   margin-left: 93px;
 }
 .nav__item {
-  /* border: 1px solid tomato; */
+
   margin-right: 50px;
 }
 .nav__item:last-child {
@@ -125,7 +125,6 @@ ul {
   padding-bottom: 32px;
 }
 .contacts__item {
-  /* border: 1px solid tomato; */
   margin-right: 50px;
 }
 
@@ -168,9 +167,9 @@ ul {
 }
 .nav__logo--second-part {
   color: #000000;
-}
+} */
 /* секция герой */
-.hero__container {
+/* .hero__container {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -211,15 +210,15 @@ ul {
   letter-spacing: 0.06em;
   color: var(--hover-text);
   cursor: pointer;
-}
+} */
 /* -- наши преимущества -- */
-.advantages__thumb {
+/* .advantages__thumb {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 270px;
   height: 120px;
-  /* outline: tomato solid 1px; */
+  
   margin-bottom: 30px;
   background-color: #f5f4fa;
 }
@@ -242,9 +241,9 @@ ul {
 .advantages__text {
   font-size: 14px;
   line-height: 1.71;
-}
+} */
                           /* --  чем мы занимаемся --*/
-.possibilities__list {
+/* .possibilities__list {
   display: flex;
 }
 .possibilities__item:not(:last-child) {
@@ -283,14 +282,14 @@ ul {
 
   background: rgba(47, 48, 58, 0.8);
   color: #ffffff;
-}
+} */
 
                                 /* -- наша команда -- */
 
-.social {
+/* .social {
   display: flex;
   justify-content: center;
-  /* padding-bottom: 30px; */
+ 
 }
 .social__link {
   display: flex;
@@ -340,9 +339,7 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.possibilities__title,
-.team__title,
-.clients__title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -360,10 +357,10 @@ ul {
   line-height: 1.18;
   text-align: center;
   margin-bottom: 16px;
-}
+} */
 
 /* Клиенты */
-.clients__list {
+/* .clients__list {
   display: flex;
 }
 
@@ -393,10 +390,10 @@ ul {
 
 .clients__item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 /* футер */
-.footer__section {
+/* .footer__section {
   background-color: #2f303a;
   padding-bottom: 60px;
   padding-top: 60px;
@@ -456,7 +453,6 @@ ul {
 }
 .footer__social {
   margin-left: 70px;
-  /* margin-top: 12px; */
 }
 
 .social-block__title {
@@ -525,12 +521,12 @@ ul {
   border-radius: 4px;
   outline: none;
   color: var(--primary-background);
-}
+} */
 
 
 
                             /* для портфолио */
-.portfolio__filter {
+/* .portfolio__filter {
   display: flex;
   justify-content: center;
 }
@@ -643,22 +639,18 @@ ul {
 }
 .product__name {
   margin-bottom: 4px;
-  /* margin-left: 24px; */
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .product__category {
-  /* margin-bottom: 20px;
-  margin-left: 24px; */
   font-size: 16px;
   line-height: 1.87;
-}
+} */
 
                             /* --MODAL-WINDOW-- */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -686,7 +678,7 @@ ul {
   transform: translate(-50%, -50%) scale(1);
   min-width: 528px;
   min-height: 581px;
-  /* padding: 8px; */
+
 
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -717,11 +709,11 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
                                     /* ----FORM------ */
 
-.form__title {
+/* .form__title {
   margin-top: 40px;
   margin-bottom: 12px;
   color: var(--title-text-color);
@@ -847,7 +839,7 @@ ul {
   margin-right: 7px;
   border: 2px solid black;
   border-radius: 2px;
-  /* background-image: url('../images/svg/check-pass.svg'); */
+ 
   transform: translateY(-1px);
 }
 
@@ -878,5 +870,5 @@ ul {
   color: var(--hover-text);
 
   background-color: var(--accent-color);
-}
+} */
 
